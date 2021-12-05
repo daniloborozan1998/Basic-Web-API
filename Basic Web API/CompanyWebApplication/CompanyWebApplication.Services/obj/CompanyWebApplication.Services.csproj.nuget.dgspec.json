@@ -1,0 +1,446 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Services\\CompanyWebApplication.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.DataAccess\\CompanyWebApplication.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.DataAccess\\CompanyWebApplication.DataAccess.csproj",
+        "projectName": "CompanyWebApplication.DataAccess",
+        "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.DataAccess\\CompanyWebApplication.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Danilo Borozan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danilo Borozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj"
+              },
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\CompanyWebApplication.Shared.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\CompanyWebApplication.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj",
+        "projectName": "CompanyWebApplication.Domain",
+        "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj",
+        "packagesPath": "C:\\Users\\Danilo Borozan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danilo Borozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\CompanyWebApplication.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\CompanyWebApplication.Dto.csproj",
+        "projectName": "CompanyWebApplication.Dto",
+        "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\CompanyWebApplication.Dto.csproj",
+        "packagesPath": "C:\\Users\\Danilo Borozan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danilo Borozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Mappers\\CompanyWebApplication.Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Mappers\\CompanyWebApplication.Mappers.csproj",
+        "projectName": "CompanyWebApplication.Mappers",
+        "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Mappers\\CompanyWebApplication.Mappers.csproj",
+        "packagesPath": "C:\\Users\\Danilo Borozan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danilo Borozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj"
+              },
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\CompanyWebApplication.Dto.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\CompanyWebApplication.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Services\\CompanyWebApplication.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Services\\CompanyWebApplication.Services.csproj",
+        "projectName": "CompanyWebApplication.Services",
+        "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Services\\CompanyWebApplication.Services.csproj",
+        "packagesPath": "C:\\Users\\Danilo Borozan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danilo Borozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.DataAccess\\CompanyWebApplication.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.DataAccess\\CompanyWebApplication.DataAccess.csproj"
+              },
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Domain\\CompanyWebApplication.Domain.csproj"
+              },
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\CompanyWebApplication.Dto.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Dto\\CompanyWebApplication.Dto.csproj"
+              },
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Mappers\\CompanyWebApplication.Mappers.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Mappers\\CompanyWebApplication.Mappers.csproj"
+              },
+              "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\CompanyWebApplication.Shared.csproj": {
+                "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\CompanyWebApplication.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\CompanyWebApplication.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\CompanyWebApplication.Shared.csproj",
+        "projectName": "CompanyWebApplication.Shared",
+        "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\CompanyWebApplication.Shared.csproj",
+        "packagesPath": "C:\\Users\\Danilo Borozan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Basic Web API\\CompanyWebApplication\\CompanyWebApplication.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danilo Borozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
